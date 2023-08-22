@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+        distDir: 'build', // Change this to your desired folder name
+}
 
 module.exports = nextConfig
