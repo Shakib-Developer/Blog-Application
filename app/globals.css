@@ -53,13 +53,14 @@
     width: 100%;
     display: inline-grid;
     grid-template-columns: auto auto auto;
-    gap: 20px;
+    gap: 0px 30px;
 }
 
 .postli{
     padding: 20px;
     list-style: none;
-    background-color: chocolate;
+    background-color: rgba(39, 39, 39, 0.2);
+    border-radius: 10px;
 }
 
 .postlink{
