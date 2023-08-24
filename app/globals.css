@@ -46,7 +46,7 @@
 .container{
     background: #000;
     padding: 30px;
-    margin: 80px 0;
+    margin: 80px auto;
 }
 
 .postul{
@@ -54,6 +54,7 @@
     display: inline-grid;
     grid-template-columns: auto auto auto;
     gap: 0px 30px;
+    margin: 0 auto;
 }
 
 .postli{
