@@ -10,7 +10,7 @@ export default async function page() {
         <ul className="postul">
           {posts.map((post) => (
             <li className="my-5 postli" key={post.id}>
-              <Link className="postlink" href={`/single-blog/${post.id}`}>
+              <Link className="postlink" href={`/singleblog/${post.id}`}>
                 <img
                   src="https://roar.media/wp-content/uploads/2023/07/18.png"
                   alt="Blog Post"
