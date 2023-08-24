@@ -16,7 +16,7 @@ export default async function page() {
                   alt="Blog Post"
                   className="img-fluid mb-4"
                 />
-                <h4>{post.title}</h4> <br /> {post.short}
+                {post.title} <br /> {post.short}
               </Link>
             </li>
           ))}

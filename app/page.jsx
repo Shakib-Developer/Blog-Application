@@ -22,7 +22,7 @@ export default async function Home() {
                   alt="Blog Post"
                   className="img-fluid my-4"
                 />
-                <h4>{post.title}</h4> <br /> {post.short}
+                {post.title} <br /> {post.short}
               </Link>
             </li>
           ))}
