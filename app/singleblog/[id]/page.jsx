@@ -1,4 +1,4 @@
-import getAllPosts from "@/lib/getAllPosts";
+// import getAllPosts from "@/lib/getAllPosts";
 import getSinglePost from "@/lib/getSinglePost";
 
 export default async function page({ params }) {
@@ -24,10 +24,10 @@ export default async function page({ params }) {
   );
 }
 
-export async function generateStaticParams() {
-  const posts = await getAllPosts();
+// export async function generateStaticParams() {
+//   const posts = await getAllPosts();
 
-  return posts.map((post) => ({
-    id: "" + post.id,
-  }));
-}
+//   return posts.map((post) => ({
+//     id: "" + post.id,
+//   }));
+// }
