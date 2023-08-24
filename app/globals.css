@@ -28,11 +28,6 @@
     font-weight: 600;
 }
 
-/* .card{
-    display: flex;
-    justify-content: space-around;
-} */
-
 .card:hover{
     background-color: rgb(226, 226, 226);
 }
@@ -51,7 +46,7 @@
 
 .postul{
     width: 100%;
-    display: inline-grid;
+    display: grid;
     grid-template-columns: auto auto auto;
     gap: 0px 30px;
     margin: 0 auto;
